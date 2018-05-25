@@ -1,0 +1,31 @@
+{
+  "CrawlerSettings": {
+    "date_format": "%Y-%m-%d",
+    "time_period": "daily",
+    "columns": [
+      "dia",
+      "lat",
+      "lon",
+      "chuva"
+    ],
+    "fields": [
+      "dia",
+      "lat",
+      "lon",
+      "chuva"
+    ],
+    "separator": ","
+  },
+  "InterpolatorSettings": {
+    "type": "IDW",
+    "box": {
+      "latini": -45.0,
+      "latfim": 12.0,
+      "lonini": -82.0,
+      "lonfim": -32.0
+    },
+    "degrees_resolution": 0.04,
+    "radius_influence": 0.3,
+    "power": 2
+  }
+}
